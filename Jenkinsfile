@@ -28,11 +28,13 @@ pipeline {
     emailext subject: "Build Success: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
              body: "The build completed successfully.\nCheck console output at ${env.BUILD_URL}",
              to: "tharunsangam@gmail.com"
+             from: "tharunreddysangam@gmail.com"
   }
   failure {
     emailext subject: "Build Failed: ${env.JOB_NAME} #${env.BUILD_NUMBER}",
              body: "The build failed.\nCheck console output at ${env.BUILD_URL}",
              to: "tharunsangam@gmail.com"
+             from: "tharunreddysangam@gmail.com"
   }
 }
 }
