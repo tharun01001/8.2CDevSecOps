@@ -214,4 +214,6 @@ In this application, the default `snyk wizard` answers will fix all the issues.
 When the wizard is done, restart the application and run the exploits again to confirm they are fixed.
 
 this is just to test the mail notification
- 
+
+this is a edit to show email notification
+
